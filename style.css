@@ -68,3 +68,12 @@ img {
 ul {
     margin-left: 20px;
 }
+
+.white {
+    background-color: white;
+
+}
+
+.grey {
+    background-color: grey;
+}
