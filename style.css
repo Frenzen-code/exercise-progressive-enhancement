@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 5px;
+    color: rgb(112, 108, 108)
+    
+}
+
+a {
+    color: hotpink
+}
+a:hover {
+    font-size: 1.5em;   
+}
+
+a:visited {
+    color : purple
+}
+
+body {
+    max-width: 90% ;
+    margin-left: 20%;
+    background: -webkit-linear-gradient(90deg, rgb(71, 243, 6), rgb(46, 214, 228));
+    background: linear-gradient(90deg, rgb(71, 243, 6), rgb(46, 214, 228));
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg");
+
+}
+
+.goodbad {
+    color: red;
+    font-weight: bold
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
