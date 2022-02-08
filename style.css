@@ -5,7 +5,7 @@
 
 p {
     margin-bottom: 5px;
-    color: rgb(112, 108, 108)
+    color: rgba(80, 17, 17, 0.842);
     
 }
 
@@ -21,6 +21,7 @@ a:visited {
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
     max-width: 90% ;
     margin-left: 20%;
     background: -webkit-linear-gradient(90deg, rgb(71, 243, 6), rgb(46, 214, 228));
@@ -33,6 +34,10 @@ body {
     color: red;
     font-weight: bold
 }
+.good {
+    color: green;
+    font-weight: bold;
+}
 
 h2 {
     margin-top: 30px;
@@ -41,4 +46,25 @@ h2 {
 h3 {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+table, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+ul {
+    margin-left: 20px;
 }
